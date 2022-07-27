@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220721131515">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220727164050">
   <!-- вставка параметра в title -->
   <title>"Главная страница"</title> 
 </head>
 
-<body>
-  <header class="header">
+<body class="body">
+  <div class="body-inner">
+    <header class="header">
   <div class="container-header">
     <div class="header__wrapper">
       <div class="header__particle-pyramide particle js-parallax-container" data-parallax-x="2.5" data-parallax-y="2.5"
@@ -125,251 +126,262 @@
     <div class="separator__ellipse-large"></div>
   </div>
 </header>
-  <main class="main">
+    <main class="main">
 
-    <section class="tasks">
-      <div class="container">
-        <div class="tasks__wrapper">
-          <div class="tasks__bg-item"></div>
-          <div class="tasks__bg-item"></div>
-          <div class="tasks__bg-light tasks__bg-light--left">
-            <div class="tasks__bg-light-item"></div>
-            <div class="tasks__bg-light-item"></div>
-          </div>
-          <div class="tasks__bg-light tasks__bg-light--right">
-            <div class="tasks__bg-light-item"></div>
-          </div>
-          <div class="tasks__inner">
-            <h2 class="tasks__title title">
-              Выполняй задания на марафоне
-            </h2>
-            <p class="tasks__descr descr">
-              и получи крупные денежные призы и подарки!
-            </p>
-            <div class="tasks__blocks">
-
-              <div class="tasks__block">
-                <div class="tasks__block-inner">
-                  <div class="tasks__img-block">
-                    <picture><source srcset="img/tasks-img-1.webp" type="image/webp"><img src="img/tasks-img-1.png" alt="" class="tasks__img"></picture>
-                  </div>
-                  <p class="tasks__block-descr">
-                    Смотри каждый день видеоуроки на нашем сайте
-                  </p>
-                </div>
-              </div>
-              <div class="tasks__block">
-                <div class="tasks__block-inner">
-                  <div class="tasks__img-block">
-                    <picture><source srcset="img/tasks-img-2.webp" type="image/webp"><img src="img/tasks-img-2.png" alt="" class="tasks__img"></picture>
-                  </div>
-                  <p class="tasks__block-descr">
-                    Делай домашние задания и отправляй нам
-                  </p>
-                </div>
-              </div>
-              <div class="tasks__block">
-                <div class="tasks__block-inner">
-                  <div class="tasks__img-block">
-                    <picture><source srcset="img/tasks-img-3.webp" type="image/webp"><img src="img/tasks-img-3.png" alt="" class="tasks__img"></picture>
-                  </div>
-                  <p class="tasks__block-descr">
-                    Самые активные марафонцы получат крупные денежные призы и подарки
-                  </p>
-                </div>
-              </div>
-
+      <section class="tasks">
+        <div class="container">
+          <div class="tasks__wrapper">
+            <div class="tasks__bg-item"></div>
+            <div class="tasks__bg-item"></div>
+            <div class="tasks__bg-light tasks__bg-light--left">
+              <div class="tasks__bg-light-item"></div>
+              <div class="tasks__bg-light-item"></div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about-us">
-      <div class="container">
-        <div class="about-us__wrapper">
-          <div class="about-us__bg-parth">
-            <picture><source srcset="img/about-us-bg-1.webp" type="image/webp"><img src="img/about-us-bg-1.png" alt="" class="about-us__bg-img"></picture>
-          </div>
-          <div class="about-us__bg-parth"></div>
-          <div class="about-us__bg-parth"></div>
-          <div class="about-us__bg-parth"></div>
-          <div class="about-us__inner">
-            <h2 class="about-us__title title">
-              Узнай о нас
-            </h2>
-            <p class="about-us__descr descr">
-              немного больше...
-            </p>
-            <div class="about-us__info-block">
-              <div class="about-us__info">
-                <div class="about-us__info-particle-keys particle js-parallax-container" data-parallax-x="1.5"
-                  data-parallax-y="1.5" data-parallax-rotate="1.5">
-                  <picture><source srcset="img/particle/keys.webp" type="image/webp"><img src="img/particle/keys.png" alt="" class="particle__img"></picture>
-                </div>
-                <div class="about-us__info-column">
-                  <h4 class="about-us__info-title">
-                    Автошкола "AutoOnline" основана в 2017 году Кайратом и Асылжаном.
-                  </h4>
-                  <p class="about-us__info-text">
-                    Они создали <span>первый в Казахстане</span> сервис для онлайн обучения в автошколе. Это позволило
-                    тысячам Казахстанцев дистанционно изучить ПДД, а затем получить свидетельство автошколы.
-                  </p>
-                </div>
-                <div class="about-us__info-column">
-                  <h4 class="about-us__info-title">
-                    В 2021 году "AutoOnline" становится не просто автошколой,
-                  </h4>
-                  <p class="about-us__info-text">
-                    а <span>сервисом для обучения</span> всех курсантов из других автошкол. За первые 4 месяца 2022
-                    года, более 2000 Казахстанцев прошли обучение по новой программе 3D видео-уроков согласно изменениям
-                    ПДД.
-                  </p>
-                  <p class="about-us__info-text">
-                    За весь период работы, нашим сервисом воспользовались <span>более 100 000 человек со всего
-                      Казахстана</span>.
-                  </p>
-                </div>
-              </div>
-              <div class="about-us__visual">
-                <div class="about-us__light-parth"></div>
-                <div class="about-us__light-parth"></div>
-                <div class="about-us__light-parth"></div>
-                <div class="about-us__particle-roadsing-triangle particle js-parallax-container" data-parallax-x="2.5"
-                  data-parallax-y="2.5" data-parallax-rotate="2.5">
-                  <picture><source srcset="img/particle/about-us-particle-triangle.webp" type="image/webp"><img src="img/particle/about-us-particle-triangle.png" alt="" class="particle__img"></picture>
-                </div>
-                <picture><source srcset="img/about-us__main-img.webp" type="image/webp"><img src="img/about-us__main-img.jpg" alt="" class="about-us__main-img"></picture>
-                <div class="about-us__particle-roadsing-circle particle js-parallax-container" data-parallax-x="1"
-                  data-parallax-y="1" data-parallax-rotate="1">
-                  <picture><source srcset="img/particle/about-us-particle-circle.webp" type="image/webp"><img src="img/particle/about-us-particle-circle.png" alt="" class="particle__img"></picture>
-                </div>
-                <div class="about-us__btn-block">
-                  <div class="about-us__btn-light"></div>
-                  <a href="https://www.youtube.com/embed/4JS70KB9GS0" class="about-us__btn js-video-modal-open">
-                    <svg width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g filter="url(#filter0_d_122_118)">
-                        <path
-                          d="M21.9308 9.39479C23.2641 10.1646 23.2641 12.0891 21.9308 12.8589L7.22502 21.3493C5.89169 22.1191 4.22502 21.1568 4.22502 19.6172V2.63647C4.22502 1.09687 5.89168 0.134613 7.22502 0.904413L21.9308 9.39479Z"
-                          fill="white" />
-                      </g>
-                      <defs>
-                        <filter id="filter0_d_122_118" x="0.224976" y="0.633545" width="26.7058" height="28.9866"
-                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                          <feColorMatrix in="SourceAlpha" type="matrix"
-                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                          <feOffset dy="4" />
-                          <feGaussianBlur stdDeviation="2" />
-                          <feComposite in2="hardAlpha" operator="out" />
-                          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_122_118" />
-                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_122_118" result="shape" />
-                        </filter>
-                      </defs>
-                    </svg>
-                  </a>
-                  <img src="img/icons/arrow-right-icon.svg" alt="" class="about-us__btn-arrow">
-                  <div class="about-us__btn-text">
-                    Смотри видео о "AutoOnline"
-                  </div>
-                </div>
-              </div>
+            <div class="tasks__bg-light tasks__bg-light--right">
+              <div class="tasks__bg-light-item"></div>
             </div>
-            <div class="about-us__incut">
-              <h5 class="about-us__incut-title">
-                Наша миссия:
-              </h5>
-              <p class="about-us__incut-descr">
-                Модернизация сферы ПДД РК, создание безопасной среды дорожного движения, и изменение представления об
-                обучении в автошколе.
+            <div class="tasks__inner">
+              <h2 class="tasks__title title">
+                Выполняй задания на марафоне
+              </h2>
+              <p class="tasks__descr descr">
+                и получи крупные денежные призы и подарки!
               </p>
+              <div class="tasks__blocks">
+
+                <div class="tasks__block">
+                  <div class="tasks__block-inner">
+                    <div class="tasks__img-block">
+                      <picture><source srcset="img/tasks-img-1.webp" type="image/webp"><img src="img/tasks-img-1.png" alt="" class="tasks__img tasks__img--monitor"></picture>
+                    </div>
+                    <p class="tasks__block-descr">
+                      Смотри каждый день видеоуроки на нашем сайте
+                    </p>
+                  </div>
+                </div>
+                <div class="tasks__block">
+                  <div class="tasks__block-inner">
+                    <div class="tasks__img-block">
+                      <picture><source srcset="img/tasks-img-2.webp" type="image/webp"><img src="img/tasks-img-2.png" alt="" class="tasks__img tasks__img--paper"></picture>
+                    </div>
+                    <p class="tasks__block-descr">
+                      Делай домашние задания и отправляй нам
+                    </p>
+                  </div>
+                </div>
+                <div class="tasks__block">
+                  <div class="tasks__block-inner">
+                    <div class="tasks__img-block">
+                      <picture><source srcset="img/tasks-img-3.webp" type="image/webp"><img src="img/tasks-img-3.png" alt="" class="tasks__img tasks__img--present"></picture>
+                    </div>
+                    <p class="tasks__block-descr">
+                      Самые активные марафонцы получат крупные денежные призы и подарки
+                    </p>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="advantages">
-      <div class="advantages__wrapper">
-        <div class="advantages__bg-parth"></div>
-        <div class="advantages__bg-parth"></div>
-        <div class="advantages__bg-parth"></div>
-        <div class="advantages__bg-parth"></div>
-        <div class="advantages__bg-parth"></div>
-        <div class="advantages__bg-parth"></div>
-        <div class="advantages__bg-parth"></div>
-        <div class="advantages-container">
-          <div class="advantages__inner">
-            <h2 class="advantages__title title">
-              Что ты получишь
-              <span>
-                после марафона
-              </span>
-              <span class="advantages__title-back">
-                Что ты
+      <section class="about-us">
+        <div class="container">
+          <div class="about-us__wrapper">
+            <div class="about-us__bg-parth">
+              <picture><source srcset="img/about-us-bg-1.webp" type="image/webp"><img src="img/about-us-bg-1.png" alt="" class="about-us__bg-img"></picture>
+            </div>
+            <div class="about-us__bg-parth"></div>
+            <div class="about-us__bg-parth"></div>
+            <div class="about-us__bg-parth"></div>
+            <div class="about-us__inner">
+              <h2 class="about-us__title title">
+                Узнай о нас
+              </h2>
+              <p class="about-us__descr descr">
+                немного больше...
+              </p>
+              <div class="about-us__info-block">
+                <div class="about-us__info">
+                  <div class="about-us__info-particle-keys particle js-parallax-container" data-parallax-x="1.5"
+                    data-parallax-y="1.5" data-parallax-rotate="1.5">
+                    <picture><source srcset="img/particle/keys.webp" type="image/webp"><img src="img/particle/keys.png" alt="" class="particle__img"></picture>
+                  </div>
+                  <div class="about-us__info-column">
+                    <h4 class="about-us__info-title">
+                      Автошкола "AutoOnline" основана в 2017 году Кайратом и Асылжаном.
+                    </h4>
+                    <p class="about-us__info-text">
+                      Они создали <span>первый в Казахстане</span> сервис для онлайн обучения в автошколе. Это позволило
+                      тысячам Казахстанцев дистанционно изучить ПДД, а затем получить свидетельство автошколы.
+                    </p>
+                  </div>
+                  <div class="about-us__info-column">
+                    <h4 class="about-us__info-title">
+                      В 2021 году "AutoOnline" становится не просто автошколой,
+                    </h4>
+                    <p class="about-us__info-text">
+                      а <span>сервисом для обучения</span> всех курсантов из других автошкол. За первые 4 месяца 2022
+                      года, более 2000 Казахстанцев прошли обучение по новой программе 3D видео-уроков согласно
+                      изменениям
+                      ПДД.
+                    </p>
+                    <p class="about-us__info-text">
+                      За весь период работы, нашим сервисом воспользовались <span>более 100 000 человек со всего
+                        Казахстана</span>.
+                    </p>
+                  </div>
+                </div>
+                <div class="about-us__visual">
+                  <div class="about-us__light-parth"></div>
+                  <div class="about-us__light-parth"></div>
+                  <div class="about-us__light-parth"></div>
+                  <div class="about-us__particle-roadsing-triangle particle js-parallax-container" data-parallax-x="2.5"
+                    data-parallax-y="2.5" data-parallax-rotate="2.5">
+                    <picture><source srcset="img/particle/about-us-particle-triangle.webp" type="image/webp"><img src="img/particle/about-us-particle-triangle.png" alt="" class="particle__img"></picture>
+                  </div>
+                  <picture>
+                    <source srcset="img/about-us__main-img-550.jpg" media="(max-width: 550px)">
+                    <img src="img/about-us__main-img.jpg" alt="" class="about-us__main-img">
+                  </picture>
+
+
+                  <div class="about-us__particle-roadsing-circle particle js-parallax-container" data-parallax-x="1"
+                    data-parallax-y="1" data-parallax-rotate="1">
+                    <picture><source srcset="img/particle/about-us-particle-circle.webp" type="image/webp"><img src="img/particle/about-us-particle-circle.png" alt="" class="particle__img"></picture>
+                  </div>
+                  <div class="about-us__btn-block">
+                    <div class="about-us__btn-light"></div>
+                    <a href="https://www.youtube.com/embed/4JS70KB9GS0" class="about-us__btn js-video-modal-open">
+                      <svg width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_122_118)">
+                          <path
+                            d="M21.9308 9.39479C23.2641 10.1646 23.2641 12.0891 21.9308 12.8589L7.22502 21.3493C5.89169 22.1191 4.22502 21.1568 4.22502 19.6172V2.63647C4.22502 1.09687 5.89168 0.134613 7.22502 0.904413L21.9308 9.39479Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_122_118" x="0.224976" y="0.633545" width="26.7058" height="28.9866"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset dy="4" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_122_118" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_122_118" result="shape" />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </a>
+                    <picture>
+                      <source srcset="img/icons/arrow-right-icon-550.svg" media="(max-width: 550px)">
+                      <img src="img/icons/arrow-right-icon.svg" alt="" class="about-us__btn-arrow">
+                    </picture>
+
+                    <div class="about-us__btn-text">
+                      Смотри видео о "AutoOnline"
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-us__incut">
+                <h5 class="about-us__incut-title">
+                  Наша миссия:
+                </h5>
+                <p class="about-us__incut-descr">
+                  Модернизация сферы ПДД РК, создание безопасной среды дорожного движения, и изменение представления об
+                  обучении в автошколе.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="advantages__wrapper">
+          <div class="advantages__bg-parth"></div>
+          <div class="advantages__bg-parth"></div>
+          <div class="advantages__bg-parth"></div>
+          <div class="advantages__bg-parth"></div>
+          <div class="advantages__bg-parth"></div>
+          <div class="advantages__bg-parth"></div>
+          <div class="advantages__bg-parth"></div>
+          <div class="advantages-container">
+            <div class="advantages__inner">
+              <h2 class="advantages__title title">
+                Что ты получишь
                 <span>
-                  получишь
+                  после марафона
                 </span>
-              </span>
-            </h2>
-            <p class="advantages__info">
-              По завершению марафона вы будете допущены на сдачу экзаменов на управление транспортных средств:
-            </p>
-            <div class="advantages__blocks">
-              <div class="advantages__block">
-                <div class="advantages__block-inner">
-                  <div class="advantages__block-particle-piramide particle js-parallax-container" data-parallax-x="2"
-                    data-parallax-y="2" data-parallax-rotate="2">
-                    <picture><source srcset="img/particle/piramide-mid.webp" type="image/webp"><img src="img/particle/piramide-mid.png" alt="" class="particle__img"></picture>
+                <span class="advantages__title-back">
+                  Что ты
+                  <span>
+                    получишь
+                  </span>
+                </span>
+              </h2>
+              <p class="advantages__info">
+                По завершению марафона вы будете допущены на сдачу экзаменов на управление транспортных средств:
+              </p>
+              <div class="advantages__blocks">
+                <div class="advantages__block">
+                  <div class="advantages__block-inner">
+                    <div class="advantages__block-particle-piramide particle js-parallax-container" data-parallax-x="2"
+                      data-parallax-y="2" data-parallax-rotate="2">
+                      <picture><source srcset="img/particle/piramide-mid.webp" type="image/webp"><img src="img/particle/piramide-mid.png" alt="" class="particle__img"></picture>
+                    </div>
+                    <h3 class="advantages__block-title">
+                      Категории а-а1
+                    </h3>
+                    <ul class="advantages__block-list">
+                      <li class="advantages__block-item">
+                        - Управление мотоциклами.
+                      </li>
+                      <li class="advantages__block-item">
+                        - Категория А1 позволяет управлять мотоциклами с мощностью двигателя не прывышающую 125 куб, см,
+                        и
+                        макс. мощность не более 11 КвТ.
+                      </li>
+                      <li class="advantages__block-item">
+                        - Обладатели категории А автоматически получают категорию А1
+                      </li>
+                    </ul>
                   </div>
-                  <h3 class="advantages__block-title">
-                    Категории а-а1
-                  </h3>
-                  <ul class="advantages__block-list">
-                    <li class="advantages__block-item">
-                      - Управление мотоциклами.
-                    </li>
-                    <li class="advantages__block-item">
-                      - Категория А1 позволяет управлять мотоциклами с мощностью двигателя не прывышающую 125 куб, см, и
-                      макс. мощность не более 11 КвТ.
-                    </li>
-                    <li class="advantages__block-item">
-                      - Обладатели категории А автоматически получают категорию А1
-                    </li>
-                  </ul>
                 </div>
-              </div>
-              <div class="advantages__block">
-                <div class="advantages__block-inner">
-                  <div class="advantages__block-particle-wheel particle js-parallax-container" data-parallax-x="-1"
-                    data-parallax-y="-1">
-                    <picture><source srcset="img/particle/wheel.webp" type="image/webp"><img src="img/particle/wheel.png" alt="" class="particle__img"></picture>
+                <div class="advantages__block">
+                  <div class="advantages__block-inner">
+                    <div class="advantages__block-particle-wheel particle js-parallax-container" data-parallax-x="-1"
+                      data-parallax-y="-1">
+                      <picture><source srcset="img/particle/wheel.webp" type="image/webp"><img src="img/particle/wheel.png" alt="" class="particle__img"></picture>
+                    </div>
+                    <h3 class="advantages__block-title">
+                      Категории b-b1
+                    </h3>
+                    <ul class="advantages__block-list">
+                      <li class="advantages__block-item">
+                        - Управление легковыми автомобилями, трициклами, квадроциклы.
+                      </li>
+                      <li class="advantages__block-item">
+                        - Категория B дает возможность управлять легковым автомобилем, небольшими грузовиками,
+                        микроавтобусами, соответствующие некоторым требованиям.
+                      </li>
+                      <li class="advantages__block-item">
+                        - Обладатели категории B автоматически получают категорию B1
+                      </li>
+                    </ul>
                   </div>
-                  <h3 class="advantages__block-title">
-                    Категории b-b1
-                  </h3>
-                  <ul class="advantages__block-list">
-                    <li class="advantages__block-item">
-                      - Управление легковыми автомобилями, трициклами, квадроциклы.
-                    </li>
-                    <li class="advantages__block-item">
-                      - Категория B дает возможность управлять легковым автомобилем, небольшими грузовиками,
-                      микроавтобусами, соответствующие некоторым требованиям.
-                    </li>
-                    <li class="advantages__block-item">
-                      - Обладатели категории B автоматически получают категорию B1
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="questions">
+      <section class="questions">
       <div class="questions__bg-img">
         <picture><source srcset="img/questions-bg.webp" type="image/webp"><img src="img/questions-bg.jpg" alt=""></picture>
       </div>
@@ -435,8 +447,8 @@
       </div>
     </section>
 
-  </main>
-  <footer class="footer">
+    </main>
+    <footer class="footer">
   <div class="footer__wrapper">
     <div class="container">
       <div class="footer__inner">
@@ -545,135 +557,137 @@
   </div>
 </footer>
 
-  <!-- viseo modal -->
-  <div class="js-video-modal">
-    <div class="js-video-modal__table">
-      <div class="js-video-modal__table-cell">
-        <div class="js-video-modal__window">
-          <button class="js-video-modal__close">
-          </button>
-          <div class="js-video-modal__window-target">
-            <!-- video input here -->
+    <!-- viseo modal -->
+    <div class="js-video-modal">
+      <div class="js-video-modal__table">
+        <div class="js-video-modal__table-cell">
+          <div class="js-video-modal__window">
+            <button class="js-video-modal__close">
+            </button>
+            <div class="js-video-modal__window-target">
+              <!-- video input here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- registration modal  -->
+
+    <div class="popup registration-first js-popup">
+      <div class="popup__table">
+        <div class="popup__table-cell js-popup-area">
+          <div class="popup__window registration">
+            <div class="popup__close js-popup-close"></div>
+            <h3 class="registration__title">
+              Регистрация на марафон
+            </h3>
+            <p class="registration__descr">
+              Дата начала марафона
+              <span>
+                20 мая / 20:00
+              </span>
+            </p>
+            <p class="registration__info">
+              Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от
+              Autoonline.
+            </p>
+            <form class="registration__form">
+              <div class="registration__input-block">
+                <label for="name" class="registration__label label">
+                  Ваше имя
+                </label>
+                <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
+              </div>
+              <div class="registration__input-block">
+                <label for="place" class="registration__label label">
+                  Откуда вы?
+                </label>
+                <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
+              </div>
+              <div class="registration__input-block">
+                <label for="phone" class="registration__label label">
+                  Ваш телефон
+                </label>
+                <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
+              </div>
+              <div class="registration__input-block">
+                <label for="mail" class="registration__label label">
+                  Ваш e-mail
+                </label>
+                <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
+              </div>
+              <div class="registration__button-block">
+                <button class="registration__button main-button">
+                  <div class="main-button__inner">
+                    Зарегистрироваться
+                  </div>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="popup registration-second js-popup">
+      <div class="popup__table">
+        <div class="popup__table-cell js-popup-area">
+          <div class="popup__window registration">
+            <div class="popup__close js-popup-close"></div>
+            <h3 class="registration__title">
+              Регистрация на марафон
+            </h3>
+            <p class="registration__descr">
+              Дата начала марафона
+              <span>
+                20 мая / 20:00
+              </span>
+            </p>
+            <p class="registration__info">
+              Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от
+              Autoonline.
+            </p>
+            <form class="registration__form">
+              <div class="registration__input-block">
+                <label for="name" class="registration__label label">
+                  Ваше имя
+                </label>
+                <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
+              </div>
+              <div class="registration__input-block">
+                <label for="place" class="registration__label label">
+                  Откуда вы?
+                </label>
+                <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
+              </div>
+              <div class="registration__input-block">
+                <label for="phone" class="registration__label label">
+                  Ваш телефон
+                </label>
+                <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
+              </div>
+              <div class="registration__input-block">
+                <label for="mail" class="registration__label label">
+                  Ваш e-mail
+                </label>
+                <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
+              </div>
+              <div class="registration__button-block">
+                <button class="registration__button main-button">
+                  <div class="main-button__inner">
+                    Зарегистрироваться
+                  </div>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- registration modal  -->
-
-  <div class="popup registration-first js-popup">
-    <div class="popup__table">
-      <div class="popup__table-cell js-popup-area">
-        <div class="popup__window registration">
-          <div class="popup__close js-popup-close"></div>
-          <h3 class="registration__title">
-            Регистрация на марафон
-          </h3>
-          <p class="registration__descr">
-            Дата начала марафона 
-            <span>
-              20 мая / 20:00
-            </span>
-          </p>
-          <p class="registration__info">
-            Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от Autoonline.
-          </p>
-          <form class="registration__form">
-            <div class="registration__input-block">
-              <label for="name" class="registration__label label">
-                Ваше имя
-              </label>
-              <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
-            </div>
-            <div class="registration__input-block">
-              <label for="place" class="registration__label label">
-                Откуда вы?
-              </label>
-              <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
-            </div>
-            <div class="registration__input-block">
-              <label for="phone" class="registration__label label">
-                Ваш телефон
-              </label>
-              <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
-            </div>
-            <div class="registration__input-block">
-              <label for="mail" class="registration__label label">
-                Ваш e-mail
-              </label>
-              <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
-            </div>
-            <div class="registration__button-block">
-              <button class="registration__button main-button">
-                <div class="main-button__inner">
-                  Зарегистрироваться
-                </div>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="popup registration-second js-popup">
-    <div class="popup__table">
-      <div class="popup__table-cell js-popup-area">
-        <div class="popup__window registration">
-          <div class="popup__close js-popup-close"></div>
-          <h3 class="registration__title">
-            Регистрация на марафон
-          </h3>
-          <p class="registration__descr">
-            Дата начала марафона 
-            <span>
-              20 мая / 20:00
-            </span>
-          </p>
-          <p class="registration__info">
-            Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от Autoonline.
-          </p>
-          <form class="registration__form">
-            <div class="registration__input-block">
-              <label for="name" class="registration__label label">
-                Ваше имя
-              </label>
-              <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
-            </div>
-            <div class="registration__input-block">
-              <label for="place" class="registration__label label">
-                Откуда вы?
-              </label>
-              <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
-            </div>
-            <div class="registration__input-block">
-              <label for="phone" class="registration__label label">
-                Ваш телефон
-              </label>
-              <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
-            </div>
-            <div class="registration__input-block">
-              <label for="mail" class="registration__label label">
-                Ваш e-mail
-              </label>
-              <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
-            </div>
-            <div class="registration__button-block">
-              <button class="registration__button main-button">
-                <div class="main-button__inner">
-                  Зарегистрироваться
-                </div>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="js/app.min.js?_v=20220721131515"></script>
+  <script src="js/app.min.js?_v=20220727164050"></script>
 </body>
 
 </html>
