@@ -3028,26 +3028,6 @@ body._active-popup {
     width: 650px;
     height: 780px;
   }
-
-  .tasks__block-inner::before {
-    display: none;
-  }
-
-  .about-us__light-parth:nth-child(1) {
-    display: none;
-  }
-
-  .about-us__light-parth:nth-child(2) {
-    display: none;
-  }
-
-  .about-us__btn-light {
-    display: none;
-  }
-
-  .about-us__incut::before {
-    display: none;
-  }
 }
 
 @media (max-width: 550px) {
