@@ -752,6 +752,7 @@ body._active-popup {
 
 .separator__img {
   height: 710px;
+  width: 4020px;
 }
 
 .separator__ellipse-small {
@@ -1035,6 +1036,8 @@ body._active-popup {
   pointer-events: none;
   position: relative;
   z-index: 2;
+  width: 445px;
+  height: 667px;
 }
 
 .header__text-bg {
@@ -1362,6 +1365,11 @@ body._active-popup {
           filter: blur(131px);
   width: 520px;
   height: 397px;
+}
+
+.about-us__bg-img {
+  width: 1001px;
+  height: 1209px;
 }
 
 .about-us__wrapper {
@@ -2533,6 +2541,7 @@ body._active-popup {
 
   .header__img {
     height: 467px;
+    width: 311px;
   }
 
   .header__particle-roadsign {
@@ -2577,6 +2586,7 @@ body._active-popup {
 
   .header__separator .separator__img {
     height: 500px;
+    width: 1100px;
   }
 
   .separator__ellipse-small {
@@ -2957,6 +2967,11 @@ body._active-popup {
         -ms-transform: translate(-50%);
             transform: translate(-50%);
   }
+
+  .about-us__bg-parth:nth-child(1) .about-us__bg-img {
+    width: 650px;
+    height: 780px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -3160,6 +3175,7 @@ body._active-popup {
 
   .questions__separator .separator__img {
     height: 240px;
+    width: 600px;
   }
 
   .questions {
@@ -3389,6 +3405,7 @@ body._active-popup {
 
   .header__separator .separator__img {
     height: 220px;
+    width: 500px;
   }
 
   .header__separator .separator__ellipse-small {
@@ -3510,6 +3527,11 @@ body._active-popup {
 
   .about-us__bg-parth:nth-child(1) {
     bottom: 0;
+  }
+
+  .about-us__bg-parth:nth-child(1) .about-us__bg-parth {
+    width: 450px;
+    height: 540px;
   }
 
   .no-webp .about-us__light-parth:nth-child(3){
