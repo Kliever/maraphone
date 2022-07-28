@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220727165014">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220728171423">
   <!-- вставка параметра в title -->
   <title>"Главная страница"</title> 
 </head>
@@ -89,7 +89,12 @@
                 <picture><source srcset="img/particle/piramide-small.webp" type="image/webp"><img src="img/particle/piramide-small.png" alt="" class="particle__img"></picture>
               </div>
               <div class="header__img-block">
-                <picture><source srcset="img/header-img.webp" type="image/webp"><img src="img/header-img.png" alt="" class="header__img"></picture>
+                <picture>
+                  <source type="image/webp" srcset="img/header-img-1000.webp" media="(max-width: 1000px)">
+                  <source srcset="img/header-img-1000.png" media="(max-width: 1000px)">
+                  <source type="image/webp" srcset="img/header-img.webp">
+                  <img src="img/header-img.png" alt="" class="header__img">
+                </picture>
                 <div class="header__particle-roadsign particle js-parallax-container" data-parallax-x="1.5"
                   data-parallax-y="1.5" data-parallax-rotate="2">
                   <picture><source srcset="img/particle/roadsign.webp" type="image/webp"><img src="img/particle/roadsign.png" alt="" class="particle__img"></picture>
@@ -121,7 +126,14 @@
     </div>
   </div>
   <div class="header__separator separator js-parallax-container" data-parallax-x="1">
-    <picture><source srcset="img/separator.webp" type="image/webp"><img src="img/separator.png" alt="" class="separator__img"></picture>
+    <picture>
+      <source type="image/webp"  srcset="img/separator-450.webp" media="(max-width: 450px)">
+      <source srcset="img/separator-450.png" media="(max-width: 450px)">
+      <source type="image/webp" srcset="img/separator-1000.webp" media="(max-width: 1000px)">
+      <source srcset="img/separator-1000.png" media="(max-width: 1000px)">
+      <source type="image/webp" srcset="img/separator.webp">
+      <img src="img/separator.png" alt="" class="separator__img">
+    </picture>
     <div class="separator__ellipse-small"></div>
     <div class="separator__ellipse-large"></div>
   </div>
@@ -179,7 +191,6 @@
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -190,7 +201,14 @@
         <div class="container">
           <div class="about-us__wrapper">
             <div class="about-us__bg-parth">
-              <picture><source srcset="img/about-us-bg-1.webp" type="image/webp"><img src="img/about-us-bg-1.png" alt="" class="about-us__bg-img"></picture>
+              <picture>
+                <source type="image/webp" srcset="img/about-us-bg-1-450.webp" media="(max-width: 450px)">
+                <source srcset="img/about-us-bg-1-450.png" media="(max-width: 450px)">
+                <source type="image/webp" srcset="img/about-us-bg-1-650.webp" media="(max-width: 650px)">
+                <source srcset="img/about-us-bg-1-650.png" media="(max-width: 650px)">
+                <source type="image/webp" srcset="img/about-us-bg-1.webp">
+                <img src="img/about-us-bg-1.png" alt="" class="about-us__bg-img">
+              </picture>
             </div>
             <div class="about-us__bg-parth"></div>
             <div class="about-us__bg-parth"></div>
@@ -242,8 +260,10 @@
                     <picture><source srcset="img/particle/about-us-particle-triangle.webp" type="image/webp"><img src="img/particle/about-us-particle-triangle.png" alt="" class="particle__img"></picture>
                   </div>
                   <picture>
-                    <source srcset="img/about-us__main-img-550.jpg" media="(max-width: 550px)">
-                    <img src="img/about-us__main-img.jpg" alt="" class="about-us__main-img">
+                    <source type="image/webp" srcset="img/about-us__main-img-550.webp" media="(max-width: 550px)">
+                    <source srcset="img/about-us__main-img-550.png" media="(max-width: 550px)">
+                    <source type="image/webp" srcset="img/about-us__main-img.webp">
+                    <img src="img/about-us__main-img.png" alt="" class="about-us__main-img">
                   </picture>
 
 
@@ -382,70 +402,84 @@
       </section>
 
       <section class="questions">
-      <div class="questions__bg-img">
-        <picture><source srcset="img/questions-bg.webp" type="image/webp"><img src="img/questions-bg.jpg" alt=""></picture>
-      </div>
-      <div class="questions__wrapper">
-        <div class="questions__bg-path"></div>
-        <div class="questions__bg-path"></div>
-        <div class="questions__bg-path"></div>
-        <div class="container">
-          <div class="questions__inner">
-            <h2 class="questions__title title">
-              Остались вопросы?
-              <span>
-                здесь ты найдёшь ответы
-              </span>
-            </h2>
-            <div class="questions__accordion spoller" accordion>
-              <button class="spoller__btn" active>
-                А Кто может быть участником марафона?
-              </button>
-              <div class="spoller__item">
-                <div class="spoller__item-inner">
-                  Участником марафона может быть любой гражданин РК достигший 16 лет.
+        <div class="questions__bg-img">
+          <picture>
+            <source type="image/webp" srcset="img/questions-bg-650.webp" media="(max-width: 650px)">
+            <source srcset="img/questions-bg-650.png" media="(max-width: 650px)">
+            <source type="image/webp" srcset="img/questions-bg-1000.webp" media="(max-width: 1000px)">
+            <source srcset="img/questions-bg-1000.png" media="(max-width: 1000px)">
+            <source type="image/webp" srcset="img/questions-bg-1000.webp">
+            <img src="img/questions-bg.png" alt="">
+          </picture>
+        </div>
+        <div class="questions__wrapper">
+          <div class="questions__bg-path"></div>
+          <div class="questions__bg-path"></div>
+          <div class="questions__bg-path"></div>
+          <div class="container">
+            <div class="questions__inner">
+              <h2 class="questions__title title">
+                Остались вопросы?
+                <span>
+                  здесь ты найдёшь ответы
+                </span>
+              </h2>
+              <div class="questions__accordion spoller" accordion>
+                <button class="spoller__btn" active>
+                  А Кто может быть участником марафона?
+                </button>
+                <div class="spoller__item">
+                  <div class="spoller__item-inner">
+                    Участником марафона может быть любой гражданин РК достигший 16 лет.
+                  </div>
                 </div>
-              </div>
-              <button class="spoller__btn">
-                Сколько всего длится марафон?
-              </button>
-              <div class="spoller__item">
-                <div class="spoller__item-inner">
-                  Участником марафона может быть любой гражданин РК достигший 16 лет.
+                <button class="spoller__btn">
+                  Сколько всего длится марафон?
+                </button>
+                <div class="spoller__item">
+                  <div class="spoller__item-inner">
+                    Участником марафона может быть любой гражданин РК достигший 16 лет.
+                  </div>
                 </div>
-              </div>
-              <button class="spoller__btn">
-                Сколько стоит участие в марафоне?
-              </button>
-              <div class="spoller__item">
-                <div class="spoller__item-inner">
-                  Участником марафона может быть любой гражданин РК достигший 16 лет.
+                <button class="spoller__btn">
+                  Сколько стоит участие в марафоне?
+                </button>
+                <div class="spoller__item">
+                  <div class="spoller__item-inner">
+                    Участником марафона может быть любой гражданин РК достигший 16 лет.
+                  </div>
                 </div>
-              </div>
-              <button class="spoller__btn">
-                Что я получу от марафона?
-              </button>
-              <div class="spoller__item">
-                <div class="spoller__item-inner">
-                  Участником марафона может быть любой гражданин РК достигший 16 лет.
+                <button class="spoller__btn">
+                  Что я получу от марафона?
+                </button>
+                <div class="spoller__item">
+                  <div class="spoller__item-inner">
+                    Участником марафона может быть любой гражданин РК достигший 16 лет.
+                  </div>
                 </div>
-              </div>
-              <button class="spoller__btn">
-                Как будет проводится марафон?
-              </button>
-              <div class="spoller__item">
-                <div class="spoller__item-inner">
-                  Участником марафона может быть любой гражданин РК достигший 16 лет.
+                <button class="spoller__btn">
+                  Как будет проводится марафон?
+                </button>
+                <div class="spoller__item">
+                  <div class="spoller__item-inner">
+                    Участником марафона может быть любой гражданин РК достигший 16 лет.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="questions__separator separator js-parallax-container" data-parallax-x="1">
-        <picture><source srcset="img/separator.webp" type="image/webp"><img src="img/separator.png" alt="" class="separator__img"></picture>
-      </div>
-    </section>
+        <div class="questions__separator separator js-parallax-container" data-parallax-x="1">
+          <picture>
+            <source type="image/webp"  srcset="img/separator-450.webp" media="(max-width: 450px)">
+            <source srcset="img/separator-450.png" media="(max-width: 450px)">
+            <source type="image/webp" srcset="img/separator-1000.webp" media="(max-width: 1000px)">
+            <source srcset="img/separator-1000.png" media="(max-width: 1000px)">
+            <source type="image/webp" srcset="img/separator.webp">
+            <img src="img/separator.png" alt="" class="separator__img">
+          </picture>
+        </div>
+      </section>
 
     </main>
     <footer class="footer">
@@ -687,7 +721,7 @@
       </div>
     </div>
   </div>
-  <script src="js/app.min.js?_v=20220727165014"></script>
+  <script src="js/app.min.js?_v=20220728171423"></script>
 </body>
 
 </html>
