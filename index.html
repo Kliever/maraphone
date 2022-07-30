@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220730143813">
-  <link rel="preload" as="image" href="../img/header-bg-650.webp">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220730153332">
   <!-- вставка параметра в title -->
   <title>"Главная страница"</title> 
 </head>
@@ -18,7 +17,7 @@
     <div class="header__wrapper">
       <div class="header__particle-pyramide particle js-parallax-container" data-parallax-x="2.5" data-parallax-y="2.5"
         data-parallax-rotate="3">
-        <picture><source srcset="img/particle/piramide.webp" type="image/webp"><img src="img/particle/piramide.png" alt="" class="particle__img"></picture>
+        <picture><source srcset="img/particle/piramide.webp" type="image/webp"><img src="img/particle/piramide.png" alt="" class="particle__img js-parallax-item"></picture>
       </div>
       <div class="header__inner">
         <div class="header__top">
@@ -87,18 +86,20 @@
             <div class="header__text-block">
               <div class="header__particle-piramide-small particle js-parallax-container" data-parallax-x="1"
                 data-parallax-y="1">
-                <picture><source srcset="img/particle/piramide-small.webp" type="image/webp"><img src="img/particle/piramide-small.png" alt="" class="particle__img"></picture>
+                <picture><source srcset="img/particle/piramide-small.webp" type="image/webp"><img src="img/particle/piramide-small.png" alt="" class="particle__img js-parallax-item"></picture>
               </div>
               <div class="header__img-block">
-                <picture>
-                  <source type="image/webp" srcset="img/header-img-1000.webp" media="(max-width: 1000px)">
-                  <source srcset="img/header-img-1000.png" media="(max-width: 1000px)">
-                  <source type="image/webp" srcset="img/header-img.webp">
-                  <img src="img/header-img.png" alt="" class="header__img">
-                </picture>
+                <div class="header__img-block-inner">
+                  <picture>
+                    <source type="image/webp" srcset="img/header-img-1000.webp" media="(max-width: 1000px)">
+                    <source srcset="img/header-img-1000.png" media="(max-width: 1000px)">
+                    <source type="image/webp" srcset="img/header-img.webp">
+                    <img src="img/header-img.png" alt="" class="header__img">
+                  </picture>
+                </div>
                 <div class="header__particle-roadsign particle js-parallax-container" data-parallax-x="1.5"
                   data-parallax-y="1.5" data-parallax-rotate="2">
-                  <picture><source srcset="img/particle/roadsign.webp" type="image/webp"><img src="img/particle/roadsign.png" alt="" class="particle__img"></picture>
+                  <picture><source srcset="img/particle/roadsign.webp" type="image/webp"><img src="img/particle/roadsign.png" alt="" class="particle__img js-parallax-item"></picture>
                 </div>
               </div>
               <div class="header__text-bg">
@@ -128,12 +129,12 @@
   </div>
   <div class="header__separator separator js-parallax-container" data-parallax-x="1">
     <picture>
-      <source type="image/webp"  srcset="img/separator-450.webp" media="(max-width: 450px)">
+      <source type="image/webp" srcset="img/separator-450.webp" media="(max-width: 450px)">
       <source srcset="img/separator-450.png" media="(max-width: 450px)">
       <source type="image/webp" srcset="img/separator-1000.webp" media="(max-width: 1000px)">
       <source srcset="img/separator-1000.png" media="(max-width: 1000px)">
       <source type="image/webp" srcset="img/separator.webp">
-      <img src="img/separator.png" alt="" class="separator__img">
+      <img src="img/separator.png" alt="" class="separator__img js-parallax-item">
     </picture>
     <div class="separator__ellipse-small"></div>
     <div class="separator__ellipse-large"></div>
@@ -225,7 +226,7 @@
                 <div class="about-us__info">
                   <div class="about-us__info-particle-keys particle js-parallax-container" data-parallax-x="1.5"
                     data-parallax-y="1.5" data-parallax-rotate="1.5">
-                    <picture><source srcset="img/particle/keys.webp" type="image/webp"><img src="img/particle/keys.png" alt="" class="particle__img"></picture>
+                    <picture><source srcset="img/particle/keys.webp" type="image/webp"><img src="img/particle/keys.png" alt="" class="particle__img js-parallax-item"></picture>
                   </div>
                   <div class="about-us__info-column">
                     <h4 class="about-us__info-title">
@@ -258,7 +259,7 @@
                   <div class="about-us__light-parth"></div>
                   <div class="about-us__particle-roadsing-triangle particle js-parallax-container" data-parallax-x="2.5"
                     data-parallax-y="2.5" data-parallax-rotate="2.5">
-                    <picture><source srcset="img/particle/about-us-particle-triangle.webp" type="image/webp"><img src="img/particle/about-us-particle-triangle.png" alt="" class="particle__img"></picture>
+                    <picture><source srcset="img/particle/about-us-particle-triangle.webp" type="image/webp"><img src="img/particle/about-us-particle-triangle.png" alt="" class="particle__img js-parallax-item"></picture>
                   </div>
                   <picture>
                     <source type="image/webp" srcset="img/about-us__main-img-550.webp" media="(max-width: 550px)">
@@ -270,7 +271,7 @@
 
                   <div class="about-us__particle-roadsing-circle particle js-parallax-container" data-parallax-x="1"
                     data-parallax-y="1" data-parallax-rotate="1">
-                    <picture><source srcset="img/particle/about-us-particle-circle.webp" type="image/webp"><img src="img/particle/about-us-particle-circle.png" alt="" class="particle__img"></picture>
+                    <picture><source srcset="img/particle/about-us-particle-circle.webp" type="image/webp"><img src="img/particle/about-us-particle-circle.png" alt="" class="particle__img js-parallax-item"></picture>
                   </div>
                   <div class="about-us__btn-block">
                     <div class="about-us__btn-light"></div>
@@ -353,7 +354,7 @@
                   <div class="advantages__block-inner">
                     <div class="advantages__block-particle-piramide particle js-parallax-container" data-parallax-x="2"
                       data-parallax-y="2" data-parallax-rotate="2">
-                      <picture><source srcset="img/particle/piramide-mid.webp" type="image/webp"><img src="img/particle/piramide-mid.png" alt="" class="particle__img"></picture>
+                      <picture><source srcset="img/particle/piramide-mid.webp" type="image/webp"><img src="img/particle/piramide-mid.png" alt="" class="particle__img js-parallax-item"></picture>
                     </div>
                     <h3 class="advantages__block-title">
                       Категории а-а1
@@ -377,7 +378,7 @@
                   <div class="advantages__block-inner">
                     <div class="advantages__block-particle-wheel particle js-parallax-container" data-parallax-x="-1"
                       data-parallax-y="-1">
-                      <picture><source srcset="img/particle/wheel.webp" type="image/webp"><img src="img/particle/wheel.png" alt="" class="particle__img"></picture>
+                      <picture><source srcset="img/particle/wheel.webp" type="image/webp"><img src="img/particle/wheel.png" alt="" class="particle__img js-parallax-item"></picture>
                     </div>
                     <h3 class="advantages__block-title">
                       Категории b-b1
@@ -477,7 +478,7 @@
             <source type="image/webp" srcset="img/separator-1000.webp" media="(max-width: 1000px)">
             <source srcset="img/separator-1000.png" media="(max-width: 1000px)">
             <source type="image/webp" srcset="img/separator.webp">
-            <img src="img/separator.png" alt="" class="separator__img">
+            <img src="img/separator.png" alt="" class="separator__img js-parallax-item">
           </picture>
         </div>
       </section>
@@ -722,7 +723,7 @@
       </div>
     </div>
   </div>
-  <script src="js/app.min.js?_v=20220730143813"></script>
+  <script src="js/app.min.js?_v=20220730153332"></script>
 </body>
 
 </html>
