@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20220730153332">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220731143755">
   <!-- вставка параметра в title -->
   <title>"Главная страница"</title> 
 </head>
@@ -259,7 +259,8 @@
                   <div class="about-us__light-parth"></div>
                   <div class="about-us__particle-roadsing-triangle particle js-parallax-container" data-parallax-x="2.5"
                     data-parallax-y="2.5" data-parallax-rotate="2.5">
-                    <picture><source srcset="img/particle/about-us-particle-triangle.webp" type="image/webp"><img src="img/particle/about-us-particle-triangle.png" alt="" class="particle__img js-parallax-item"></picture>
+                    <img src="img/particle/about-us-particle-triangle.png" alt=""
+                      class="particle__img js-parallax-item">
                   </div>
                   <picture>
                     <source type="image/webp" srcset="img/about-us__main-img-550.webp" media="(max-width: 550px)">
@@ -473,7 +474,7 @@
         </div>
         <div class="questions__separator separator js-parallax-container" data-parallax-x="1">
           <picture>
-            <source type="image/webp"  srcset="img/separator-450.webp" media="(max-width: 550px)">
+            <source type="image/webp" srcset="img/separator-450.webp" media="(max-width: 550px)">
             <source srcset="img/separator-450.png" media="(max-width: 550px)">
             <source type="image/webp" srcset="img/separator-1000.webp" media="(max-width: 1000px)">
             <source srcset="img/separator-1000.png" media="(max-width: 1000px)">
@@ -607,123 +608,126 @@
         </div>
       </div>
     </div>
-
-    <!-- registration modal  -->
-
-    <div class="popup registration-first js-popup">
-      <div class="popup__table">
-        <div class="popup__table-cell js-popup-area">
-          <div class="popup__window registration">
-            <div class="popup__close js-popup-close"></div>
-            <h3 class="registration__title">
-              Регистрация на марафон
-            </h3>
-            <p class="registration__descr">
-              Дата начала марафона
-              <span>
-                20 мая / 20:00
-              </span>
-            </p>
-            <p class="registration__info">
-              Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от
-              Autoonline.
-            </p>
-            <form class="registration__form">
-              <div class="registration__input-block">
-                <label for="name" class="registration__label label">
-                  Ваше имя
-                </label>
-                <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
-              </div>
-              <div class="registration__input-block">
-                <label for="place" class="registration__label label">
-                  Откуда вы?
-                </label>
-                <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
-              </div>
-              <div class="registration__input-block">
-                <label for="phone" class="registration__label label">
-                  Ваш телефон
-                </label>
-                <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
-              </div>
-              <div class="registration__input-block">
-                <label for="mail" class="registration__label label">
-                  Ваш e-mail
-                </label>
-                <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
-              </div>
-              <div class="registration__button-block">
-                <button class="registration__button main-button">
-                  <div class="main-button__inner">
-                    Зарегистрироваться
-                  </div>
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
 
 
-    <div class="popup registration-second js-popup">
-      <div class="popup__table">
-        <div class="popup__table-cell js-popup-area">
-          <div class="popup__window registration">
-            <div class="popup__close js-popup-close"></div>
-            <h3 class="registration__title">
-              Регистрация на марафон
-            </h3>
-            <p class="registration__descr">
-              Дата начала марафона
-              <span>
-                20 мая / 20:00
-              </span>
-            </p>
-            <p class="registration__info">
-              Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от
-              Autoonline.
-            </p>
-            <form class="registration__form">
-              <div class="registration__input-block">
-                <label for="name" class="registration__label label">
-                  Ваше имя
-                </label>
-                <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
-              </div>
-              <div class="registration__input-block">
-                <label for="place" class="registration__label label">
-                  Откуда вы?
-                </label>
-                <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
-              </div>
-              <div class="registration__input-block">
-                <label for="phone" class="registration__label label">
-                  Ваш телефон
-                </label>
-                <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
-              </div>
-              <div class="registration__input-block">
-                <label for="mail" class="registration__label label">
-                  Ваш e-mail
-                </label>
-                <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
-              </div>
-              <div class="registration__button-block">
-                <button class="registration__button main-button">
-                  <div class="main-button__inner">
-                    Зарегистрироваться
-                  </div>
-                </button>
-              </div>
-            </form>
-          </div>
+
+  <!-- registration modal  -->
+
+  <div class="popup registration-first js-popup">
+    <div class="popup__table">
+      <div class="popup__table-cell js-popup-area">
+        <div class="popup__window registration">
+          <div class="popup__close js-popup-close"></div>
+          <h3 class="registration__title">
+            Регистрация на марафон
+          </h3>
+          <p class="registration__descr">
+            Дата начала марафона
+            <span>
+              20 мая / 20:00
+            </span>
+          </p>
+          <p class="registration__info">
+            Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от
+            Autoonline.
+          </p>
+          <form class="registration__form">
+            <div class="registration__input-block">
+              <label for="name" class="registration__label label">
+                Ваше имя
+              </label>
+              <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
+            </div>
+            <div class="registration__input-block">
+              <label for="place" class="registration__label label">
+                Откуда вы?
+              </label>
+              <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
+            </div>
+            <div class="registration__input-block">
+              <label for="phone" class="registration__label label">
+                Ваш телефон
+              </label>
+              <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
+            </div>
+            <div class="registration__input-block">
+              <label for="mail" class="registration__label label">
+                Ваш e-mail
+              </label>
+              <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
+            </div>
+            <div class="registration__button-block">
+              <button class="registration__button main-button">
+                <div class="main-button__inner">
+                  Зарегистрироваться
+                </div>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
-  <script src="js/app.min.js?_v=20220730153332"></script>
+
+
+  <div class="popup registration-second js-popup">
+    <div class="popup__table">
+      <div class="popup__table-cell js-popup-area">
+        <div class="popup__window registration">
+          <div class="popup__close js-popup-close"></div>
+          <h3 class="registration__title">
+            Регистрация на марафон
+          </h3>
+          <p class="registration__descr">
+            Дата начала марафона
+            <span>
+              20 мая / 20:00
+            </span>
+          </p>
+          <p class="registration__info">
+            Укажи свои данные в полях ниже и получи доступ к <span>бесплатному 7-ми дневному</span> марафону от
+            Autoonline.
+          </p>
+          <form class="registration__form">
+            <div class="registration__input-block">
+              <label for="name" class="registration__label label">
+                Ваше имя
+              </label>
+              <input type="text" id="name" class="registration__input input" placeholder="Введите ваше имя...">
+            </div>
+            <div class="registration__input-block">
+              <label for="place" class="registration__label label">
+                Откуда вы?
+              </label>
+              <input type="text" id="place" class="registration__input input" placeholder="Введите город...">
+            </div>
+            <div class="registration__input-block">
+              <label for="phone" class="registration__label label">
+                Ваш телефон
+              </label>
+              <input type="tel" id="phone" class="registration__input input" placeholder="+8 ...">
+            </div>
+            <div class="registration__input-block">
+              <label for="mail" class="registration__label label">
+                Ваш e-mail
+              </label>
+              <input type="email" id="mail" class="registration__input input" placeholder="email@mail.com">
+            </div>
+            <div class="registration__button-block">
+              <button class="registration__button main-button">
+                <div class="main-button__inner">
+                  Зарегистрироваться
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.min.js?_v=20220731143755"></script>
 </body>
 
 </html>
